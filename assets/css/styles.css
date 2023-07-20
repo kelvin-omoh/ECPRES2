@@ -161,6 +161,11 @@ body.dark-theme {
   margin-right: var(--mb-1-5);
 }
 
+.app .grid{
+  grid-template-columns:repeat(1,1fr);
+  place-content: center;
+}
+
 .grid {
   display: grid;
   gap: 1.5rem;
